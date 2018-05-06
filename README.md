@@ -23,6 +23,9 @@ Nordicforum = "https://nordicforum.gastrogate.com/lunchmeny/"
 
 ## Usage:
 gla - Will give you all the weeks entry to stdout.
+
 gla -today will give you todays menu options
+
 gla -weekday=$WEEKDAY will give you $WEEKDAYs lunchoption, weekday can be in Swedish or English currently.
+
 gla -settings=$PATH will change where to look for settings file from the default of $HOME/.lunchsettings to $PATH
